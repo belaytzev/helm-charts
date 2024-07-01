@@ -16,6 +16,14 @@ nginxConfigs:
     error_log /dev/null crit;
     access_log off;
 
+resources:
+  limits:
+    cpu: 100m
+    memory: 64Mi
+  requests:
+    cpu: 100m
+    memory: 64Mi
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
@@ -26,11 +34,9 @@ serviceAccount:
 podAnnotations: {}
 podSecurityContext: {}
 securityContext: {}
-
 service:
   type: ClusterIP
   port: 80
-
 ingress:
   enabled: false
   className: ""
@@ -41,22 +47,12 @@ ingress:
         - path: /
           pathType: ImplementationSpecific
   tls: []
-
-resources:
-  limits:
-    cpu: 100m
-    memory: 64Mi
-  requests:
-    cpu: 100m
-    memory: 64Mi
-
 autoscaling:
   enabled: false
   minReplicas: 1
   maxReplicas: 10
   targetCPUUtilizationPercentage: 80
   targetMemoryUtilizationPercentage: 80
-
 nodeSelector: {}
 tolerations: []
 affinity: {}
