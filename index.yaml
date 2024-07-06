@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  ipinfo:
+  - apiVersion: v2
+    appVersion: 1.26.1
+    created: "2024-07-06T09:23:08.234060925Z"
+    description: "\U0001F433 A self-host \U0001F645 non-tracking, AD-\U0001F193 ➕
+      \U0001F36A-\U0001F193 solution to show your IP ℹ️ Super small (\U0001F90F10MB)
+      base on [PeterDaveHello/ipinfo.tw](https://github.com/PeterDaveHello/ipinfo.tw)"
+    digest: b3bd7abf69473277cc7185f47c45023f8553d36eea9fe94542cbb762acb0ce5a
+    name: ipinfo
+    type: application
+    urls:
+    - https://github.com/belaytzev/helm-charts/releases/download/ipinfo-1.0.4/ipinfo-1.0.4.tgz
+    version: 1.0.4
+generated: "2024-07-06T09:23:08.234071174Z"
