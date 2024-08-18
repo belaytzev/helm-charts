@@ -2,5 +2,5 @@ apiVersion: v2
 name: ipinfo
 description: 🐳 A self-host 🙅 non-tracking, AD-🆓 ➕ 🍪-🆓 solution to show your IP ℹ️ Super small (🤏10MB) base on [PeterDaveHello/ipinfo.tw](https://github.com/PeterDaveHello/ipinfo.tw)
 type: application
-version: 1.0.4
+version: 1.0.5
 appVersion: "1.26.1"
