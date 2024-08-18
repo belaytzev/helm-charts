@@ -25,4 +25,15 @@ entries:
     urls:
     - https://github.com/belaytzev/helm-charts/releases/download/ipinfo-1.0.4/ipinfo-1.0.4.tgz
     version: 1.0.4
-generated: "2024-08-18T11:58:12.613598075Z"
+  rustdesk:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-18T13:29:40.514505315Z"
+    description: A Helm chart for Kubernetes
+    digest: 1f53f4c6ad3b5b063d43bb263ce0abd4be42e961fc23f05929cea67771043921
+    name: rustdesk
+    type: application
+    urls:
+    - https://github.com/belaytzev/helm-charts/releases/download/rustdesk-0.1.0/rustdesk-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-08-18T13:29:40.514517929Z"
